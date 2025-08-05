@@ -1,31 +1,0 @@
-11.8s 1 2025-08-02 13:08:40.363386: E external/local_xla/xla/stream_executor/cuda/cuda_fft.cc:485] Unable to register cuFFT factory: Attempting to register factory for plugin cuFFT when one has already been registered
-12.0s 2 2025-08-02 13:08:40.591315: E external/local_xla/xla/stream_executor/cuda/cuda_dnn.cc:8454] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered
-12.1s 3 2025-08-02 13:08:40.658692: E external/local_xla/xla/stream_executor/cuda/cuda_blas.cc:1452] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
-27.6s 4 Downloading data from https://storage.googleapis.com/tensorflow/tf-keras-datasets/mnist.npz
-28.6s 5 [1m       0/11490434[0m [37m━━━━━━━━━━━━━━━━━━━━[0m [1m0s[0m 0s/step[1m   49152/11490434[0m [37m━━━━━━━━━━━━━━━━━━━━[0m [1m26s[0m 2us/step[1m   81920/11490434[0m [37m━━━━━━━━━━━━━━━━━━━━[0m [1m29s[0m 3us/step[1m  147456/11490434[0m [37m━━━━━━━━━━━━━━━━━━━━[0m [1m20s[0m 2us/step[1m  212992/11490434[0m [37m━━━━━━━━━━━━━━━━━━━━[0m [1m16s[0m 1us/step[1m  294912/11490434[0m [37m━━━━━━━━━━━━━━━━━━━━[0m [1m13s[0m 1us/step[1m  442368/11490434[0m [37m━━━━━━━━━━━━━━━━━━━━[0m [1m10s[0m 1us/step[1m  638976/11490434[0m [32m━[0m[37m━━━━━━━━━━━━━━━━━━━[0m [1m8s[0m 1us/step [1m  917504/11490434[0m [32m━[0m[37m━━━━━━━━━━━━━━━━━━━[0m [1m6s[0m 1us/step[1m 1343488/11490434[0m [32m━━[0m[37m━━━━━━━━━━━━━━━━━━[0m [1m4s[0m 0us/step[1m 1933312/11490434[0m [32m━━━[0m[37m━━━━━━━━━━━━━━━━━[0m [1m3s[0m 0us/step[1m 2859008/11490434[0m [32m━━━━[0m[37m━━━━━━━━━━━━━━━━[0m [1m2s[0m 0us/step[1m 4202496/11490434[0m [32m━━━━━━━[0m[37m━━━━━━━━━━━━━[0m [1m1s[0m 0us/step[1m 6111232/11490434[0m [32m━━━━━━━━━━[0m[37m━━━━━━━━━━[0m [1m0s[0m 0us/step[1m 8478720/11490434[0m [32m━━━━━━━━━━━━━━[0m[37m━━━━━━[0m [1m0s[0m 0us/step[1m10813440/11490434[0m [32m━━━━━━━━━━━━━━━━━━[0m[37m━━[0m [1m0s[0m 0us/step[1m11490434/11490434[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m1s[0m 0us/step
-66.9s 6 Performance Metrics (Mean ± Std):
-66.9s 7 
-66.9s 8 Adjusted Rand Index:
-66.9s 9 KMEANS: 0.9549 ± 0.0377
-66.9s 10 PSO: 0.9547 ± 0.0379
-66.9s 11 GWO: 0.7009 ± 0.0558
-66.9s 12 
-66.9s 13 Normalized Mutual Info:
-66.9s 14 KMEANS: 0.9084 ± 0.0614
-66.9s 15 PSO: 0.9081 ± 0.0618
-66.9s 16 GWO: 0.6024 ± 0.0544
-66.9s 17 
-66.9s 18 Dice Coefficient:
-66.9s 19 KMEANS: 0.9681 ± 0.0277
-66.9s 20 PSO: 0.9679 ± 0.0279
-66.9s 21 GWO: 0.7974 ± 0.0485
-74.0s 22 /usr/local/lib/python3.10/dist-packages/traitlets/traitlets.py:2915: FutureWarning: --Exporter.preprocessors=["remove_papermill_header.RemovePapermillHeader"] for containers is deprecated in traitlets 5.0. You can pass `--Exporter.preprocessors item` ... multiple times to add items to a list.
-74.0s 23 warn(
-74.0s 24 [NbConvertApp] Converting notebook __notebook__.ipynb to notebook
-74.4s 25 [NbConvertApp] Writing 132588 bytes to __notebook__.ipynb
-76.0s 26 /usr/local/lib/python3.10/dist-packages/traitlets/traitlets.py:2915: FutureWarning: --Exporter.preprocessors=["nbconvert.preprocessors.ExtractOutputPreprocessor"] for containers is deprecated in traitlets 5.0. You can pass `--Exporter.preprocessors item` ... multiple times to add items to a list.
-76.0s 27 warn(
-76.0s 28 [NbConvertApp] Converting notebook __notebook__.ipynb to html
-77.0s 29 [NbConvertApp] Support files will be in __results___files/
-77.0s 30 [NbConvertApp] Making directory __results___files
-77.0s 31 [NbConvertApp] Writing 336589 bytes to __results__.html
