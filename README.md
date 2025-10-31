@@ -6,7 +6,7 @@ The segmentation quality is evaluated using **Adjusted Rand Index (ARI)**, **Nor
 
 ---
 
-## 🧠 Methods Used
+## Methods Used
 
 - **KMeans Clustering**
 - **Particle Swarm Optimization (PSO)**
@@ -16,7 +16,7 @@ Each method is used to find the optimal threshold for binary segmentation of MNI
 
 ---
 
-## 📊 Evaluation Metrics
+## Evaluation Metrics
 
 - Adjusted Rand Index
 - Normalized Mutual Information
