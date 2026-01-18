@@ -1,4 +1,4 @@
-# Swarm Intelligence vs Deep Learning on MNIST
+# Swarm Intelligence vs Classical Machine Learning on MNIST
 
 This project compares **swarm-based optimization methods** (Particle Swarm Optimization and Grey Wolf Optimization) against a **conventional clustering method** (KMeans) for the task of image segmentation on the MNIST dataset.
 
